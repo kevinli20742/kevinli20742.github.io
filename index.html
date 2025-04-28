@@ -12,7 +12,14 @@
         <p class="subtitle">An exploration of modern retellings of Hercules and the original myth of the ancient hero. </p>
     </header>
     
-    <section id="timeline" class="container" style="padding-top: 2rem;">
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#timeline" class="nav-link active" data-section="timeline">Timeline</a></li>
+            <li><a href="#commentary" class="nav-link" data-section="commentary">Commentary</a></li>
+        </ul>
+    </nav>
+
+    <section id="timeline" class="container section-content active" style="padding-top: 2rem;">
         
         <div class="timeline-filter">
             <button class="filter-btn active" data-filter="all">All</button>
@@ -27,10 +34,10 @@
                     <span class="timeline-date">c. 750-650 BCE</span>
                     <h3 class="timeline-title">Hesiod's Theogony</h3>
                     <div class="timeline-body">
-                        <p>Content about this ancient source.</p>
+                        <p>Early Greek account of Hercules as an enforcer of divine order.</p>
                     </div>
                     <div class="timeline-img">
-                        <img src="images/theogony.jpg" alt="">
+                        <img src="images/theogony.jpg" alt="Representation of Hesiod's Theogony">
                     </div>
                     <span class="timeline-tag ancient">Primary Source</span>
                 </div>
@@ -41,10 +48,10 @@
                     <span class="timeline-date">c. 450-425 BCE</span>
                     <h3 class="timeline-title">Sophocles' Women of Trachis</h3>
                     <div class="timeline-body">
-                        <p>Content about this ancient source.</p>
+                        <p>Tragic portrayal focusing on Hercules' mortality and suffering.</p>
                     </div>
                     <div class="timeline-img">
-                        <img src="images/trachis.jpg" alt="">
+                        <img src="images/trachis.jpg" alt="Representation of Women of Trachis">
                     </div>
                     <span class="timeline-tag ancient">Primary Source</span>
                 </div>
@@ -55,10 +62,10 @@
                     <span class="timeline-date">c. 416 BCE</span>
                     <h3 class="timeline-title">Euripides' Heracles</h3>
                     <div class="timeline-body">
-                        <p>Content about this ancient source.</p>
+                        <p>Portrayal of Hercules as a tragic victim of divine manipulation.</p>
                     </div>
                     <div class="timeline-img">
-                        <img src="images/euripides.jpg" alt="">
+                        <img src="images/euripides.jpg" alt="Representation of Euripides' Heracles">
                     </div>
                     <span class="timeline-tag ancient">Primary Source</span>
                 </div>
@@ -66,27 +73,13 @@
             
             <div class="timeline-item" data-category="ancient">
                 <div class="timeline-content">
-                    <span class="timeline-date">c. 1st Century CE</span>
-                    <h3 class="timeline-title">Apollodorus' Bibliotheca</h3>
-                    <div class="timeline-body">
-                        <p>Content about this ancient source.</p>
-                    </div>
-                    <div class="timeline-img">
-                        <img src="images/apollodorus.jpg" alt="">
-                    </div>
-                    <span class="timeline-tag ancient">Primary Source</span>
-                </div>
-            </div>
-
-            <div class="timeline-item" data-category="ancient">
-                <div class="timeline-content">
                     <span class="timeline-date">c. 8 CE</span>
                     <h3 class="timeline-title">Ovid's Metamorphoses</h3>
                     <div class="timeline-body">
-                        <p>Content about this ancient source.</p>
+                        <p>Account of Hercules' suffering and ultimate transformation into a god.</p>
                     </div>
                     <div class="timeline-img">
-                        <img src="images/ovid.jpg" alt="">
+                        <img src="images/ovid.jpg" alt="Representation of Ovid's Metamorphoses">
                     </div>
                     <span class="timeline-tag ancient">Primary Source</span>
                 </div>
@@ -98,10 +91,10 @@
                     <span class="timeline-date">1965</span>
                     <h3 class="timeline-title">Marvel Comics' Hercules</h3>
                     <div class="timeline-body">
-                        <p>Content about this modern source.</p>
+                        <p>Superhero version of Hercules who often defies divine order.</p>
                     </div>
                     <div class="timeline-img">
-                        <img src="images/marvel.jpg" alt="">
+                        <img src="images/marvel.jpg" alt="Marvel's Hercules">
                     </div>
                     <span class="timeline-tag modern">Comics</span>
                 </div>
@@ -112,10 +105,10 @@
                     <span class="timeline-date">1997</span>
                     <h3 class="timeline-title">Disney's "Hercules"</h3>
                     <div class="timeline-body">
-                        <p>Content about this modern source.</p>
+                        <p>Family-friendly adaptation focusing on personal growth and selflessness.</p>
                     </div>
                     <div class="timeline-img">
-                        <img src="images/disney.jpg" alt="">
+                        <img src="images/disney.jpg" alt="Disney's Hercules">
                     </div>
                     <span class="timeline-tag modern">Film</span>
                 </div>
@@ -123,27 +116,13 @@
             
             <div class="timeline-item" data-category="modern">
                 <div class="timeline-content">
-                    <span class="timeline-date">1995-1999</span>
-                    <h3 class="timeline-title">Hercules: The Legendary Journeys</h3>
-                    <div class="timeline-body">
-                        <p>Content about this modern source.</p>
-                    </div>
-                    <div class="timeline-img">
-                        <img src="images/legendary.webp" alt="">
-                    </div>
-                    <span class="timeline-tag modern">Television</span>
-                </div>
-            </div>
-
-            <div class="timeline-item" data-category="modern">
-                <div class="timeline-content">
                     <span class="timeline-date">2012-2014</span>
                     <h3 class="timeline-title">Rick Riordan's Heroes of Olympus series</h3>
                     <div class="timeline-body">
-                        <p>Content about this modern source.</p>
+                        <p>Portrayal of Hercules as flawed and resentful despite his godly status.</p>
                     </div>
                     <div class="timeline-img">
-                        <img src="images/rick.jpeg" alt="">
+                        <img src="images/rick.jpeg" alt="Heroes of Olympus book">
                     </div>
                     <span class="timeline-tag modern">Novel</span>
                 </div>
@@ -154,19 +133,41 @@
                     <span class="timeline-date">2014</span>
                     <h3 class="timeline-title">Hercules (Dwayne Johnson)</h3>
                     <div class="timeline-body">
-                        <p>Content about this modern source.</p>
+                        <p>Mortal interpretation emphasizing personal courage over divine favor.</p>
                     </div>
                     <div class="timeline-img">
-                        <img src="images/rock.webp" alt="">
+                        <img src="images/rock.webp" alt="Dwayne Johnson as Hercules">
                     </div>
                     <span class="timeline-tag modern">Film</span>
                 </div>
             </div>
+            
+            
         </div>
         
         <div class="timeline-buttons">
-            <!-- <button class="timeline-btn" id="load-more">Load More Events</button> -->
             <button class="timeline-btn" id="scroll-top">Back to Top</button>
+        </div>
+    </section>
+
+    <section id="commentary" class="container section-content" style="display: none; padding-top: 2rem;">
+        <h2>Academic Commentary on Hercules</h2>
+        
+        <div class="commentary-content">
+            <p>Many of the ancient retellings, including the ones explored here, focus on the deep connection that Hercules has with divine intervention along with a focus on tragedy. In Hesiod’s Theogony, it is clear that many of the asides that are associated with Hercules are related to his physical feats that are almost always a result of Zeus’ or some other god’s will to maintain order in the world. Here, there is almost no individuality and most of the control lies in the gods that are more powerful than Hercules. In Sophocles’ Women of Trachis, the focus is on the tragedy of Hercules along with the humanity that he maintains despite being such a physically powerful hero. This mirrors Euripides’ Heracles which also focuses on the tragedy that unravels around Hercules but also puts emphasis once again on the divine intervention (Hera this time) as he goes mad and suffers the pain of killing his own family. Ovid’s Metamorphoses once more focuses on the tragedy behind Hercules as he kills his own family, and explores the humanity behind a figure that is deemed so powerful. Overall, much of what Hercules accomplishes and suffers from is a result of the decisions of the gods around him. Additionally, he is depicted as someone who is powerless against fate, and because of this suffers great tragedies emphasizing the message that the greatest heroes must succumb to divine forces.
+            </p>
+            <br>
+            <p>
+                Contrary to these ancient primary depictions, the modern retellings focus more on Hercules’ own virtues along with his personal development. In his Marvel and Disney retellings, the focus is very much on the personality and shortcomings of who he is as a person. The plot and storylines often revolve around how these shortcomings grow, and how he develops into a more virtuous person in order to fulfill his role as a hero. Beyond this, there is far less emphasis on divine intervention. In the Marvel retellings he goes so far as to disobey Zeus in order to do what he feels is right. Another instance of there being a focus on Hercules’ flaws on a personal level comes from Rick Riordan’s interpretation in the Heroes of Olympus series. Here, he is seen as a cocky and troubled individual (as a result of going through the twelve labors) which is the main focus for Percy Jackson and his crew. In the most recent retelling that is explored, The Rock’s 2014 Hercules adaptation, the entire movie focuses on Hercules being a hero through his bravery and resilience despite not having help from the gods. This version of Hercules is great because he is merely a mortal, emphasizing this focus on personal virtues and Hercules’ own development as a person.
+            </p>
+            <br>
+            <p>
+                There is a clear shift from the ancient versions of Hercules to his more modern retellings. There is a dramatic difference in the focus on divine intervention and resulting tragedy compared to the exploration of virtues and personal development. This largely reflects broader changes in cultural values. Ancient societies oftentimes emphasized the fragility of humans in light of divine forces like the gods while modern society is far more focused on the individual. Today, there is so much focus on personal growth and development, a theme that is present in so many modern stories, so it only makes sense that Hercules is depicted in that way as well. 
+            </p>
+            <br>
+            <p>
+                I originally came up with this idea while reading through The Odyssey as I wanted the opportunity to explore more heroes. My idea was first to explore how all heroes have changed through time, but upon narrowing the scope of the project, I chose to focus more on Hercules, a hero with many modern retellings. In terms of the medium, I saw many examples of paintings and pottery, and since I study ECE and am going into a software engineering career, I thought it would be fitting to put those skills to use with this project. I first started by making a skeleton for the website so I could fill in the actual content later. This was one of the most enjoyable parts of the project since I had all the creative freedom to model my website however I wanted to. Next, I did research from my eight sources on a document and made edits wherever needed. The last step was just to put these two together and form this final version of the website. In the future, I think a worthy topic to explore is still the concept of how all ancient heroes have evolved over time. It would be really interesting to see if there are differences in these evolutions, or if there is a common theme across all of them. 
+                </p>
         </div>
     </section>
     
@@ -179,23 +180,66 @@
                 <p class="modal-date">[Event Date]</p>
             </div>
             <div class="modal-body">
-                <p>[Detailed description will appear here]</p>
+                <p>[Brief description]</p>
             </div>
-            <div class="modal-media">More content about source</div>
-            <div class="compare-container">
-                <div class="compare-column">
-                    <h4 class="compare-title">Original Mythology</h4>
-                    <p>Comparison to the original myth.</p>
-                </div>
-                <div class="compare-column">
-                    <h4 class="compare-title">Modern Interpretation</h4>
-                    <p>Comparison to modern retellings.</p>
-                </div>
+            <div class="modal-media">
+                <p>[Detailed description will appear here]</p>
             </div>
         </div>
     </div>
     
     <script>
+        // Store all the detailed descriptions
+        const descriptions = {
+            "Hesiod's Theogony": "In Hesiod's Theogony, Hercules is largely depicted as an enforcer of order under Zeus, his father, and other divine figures. Most of the references are to his feats of defeating monstrous creatures in order to restore peace to the world, which are always under some sort of divine will. Throughout Hesiod's Theogony, Hercules kills the eagle that is punishing Prometheus, and thus freeing him (Theog. 526-528). Though it was Zeus that originally sentenced Prometheus to this punishment, it was Zeus who allowed Hercules to free him, becoming a symbol of a newer period of rule. Notably, there are also references to his twelve labors including the killing of Geryon in order to fetch cattle and defeating the Nemean lion (Theog. 376). Despite being punishment for Hercules himself, these two feats that are depicted in the Theogony are ridding the world of monsters and enforcing the balance that Zeus is ruling over. It is also mentioned that he slays Echidna the half-serpent being, with the help of Athena (Theog. 356). Here, Hercules is not only carrying out the divine order of Athena, but also being aided by her. The Theogony paints Hercules as a hero who carries out the higher order power of the gods, rather than his own personal ambition.",
+            
+            "Sophocles' Women of Trachis": "Sophocles' Women of Trachis' depiction of Hercules focuses on his journey after completing the twelve labors and the many battles. His wife attempts to regain his love by giving him a potion from the blood of Nessus, a centaur, but poisons him by accident (Trach. 574-630). Because of this, Hercules suffers an excruciating pain and even blames the gods for this unimaginable suffering (Trach. 1070-1080). Here, the focus on the tragedy of Hercules, despite there being some mentions of divine intervention during his end. This is a reflection of human suffering, and shifts the spotlight away from his carrying out of divine will to Hercules' mortality. It is because of a mere human error that causes his pain and eventual death.",
+            
+            "Euripides' Heracles": "In Euripides' Heracles, he returns home from his labors just for the goddess Lyssa, who was sent by Hera, to drive him mad (Her. 815-825). While he is mad, he kills his wife and children, and upon waking up, he realizes what he has done and is overcome with guilt (Her. 930-950). He considers suicide but Theseus persuades him to accept exile instead (Her. 1325-1350). Once more, the focus is on Hercules' being a tragic victim of divine decision making (Hera in this case). His humanity is also emphasized here, showing that even one of the greatest heroes can collapse in the light of the divine forces of the gods.",
+            
+            "Ovid's Metamorphoses": "In Ovid's Metamorphoses, Hercules goes through the immense suffering from getting poisoned by his wife, and ultimately achieves immortality. After receiving a poisoned cloak from his wife, Deianira, Hercules experiences unbearable suffering and agony (Met. 9.155-210). Right before his death, he constructs his own funeral pyre which emphasizes the same physical strengths that he showed during his twelve labors but also his own immortality (Met. 9.211-220). Ovid then transforms Hercules into a divine being and Hercules ascends to Olympus (Met. 9.230-272). This ending shows that Hercules' suffering eventually diverts from the tragedy of other sources towards eternal glory once he reaches the status of a god. This can be seen as a start of the idea that suffering is essential on the path to transformation and ultimately greatness.",
+            
+            "Marvel Comics' Hercules": "Hercules' first appearance was Journey into Mystery Annual #1 and later became a recurring character in Thor and The Avengers. Here, he is depicted as a superhero, largely free from the tragedy and divine intervention of the ancient versions of himself. Like ancient sources however, he is physically strong, but is also seen as overly confident and cocky at times. Throughout the comics, he can be seen defying the order of Zeus and oftentimes forges his own path like when he decides to stay on Earth and fight alongside the humans instead of going back to Olympus on Zeus' orders. There is also a focus on his personal virtues including his bravery and loyalty to other characters. He is often seen choosing the wellbeing of other mortal heroes like those in the Avengers rather than his own obligations to Olympus and Zeus himself.",
+            
+            "Disney's \"Hercules\"": "Disney's Hercules focuses on Hercules' personal growth in order to achieve his ultimate goals. Hercules is born a god and raised as a mortal resulting in his entire character arc focusing on finding where he belongs. The theme of the movie is for Hercules to understand that it is selflessness and love that defines a true hero rather than defeating monsters with physical strength. At the end of the movie, Hercules sacrifices his own life to save Megara, proving his status as a true hero and giving him a place back among the gods (even though he ultimately decides to stay on Earth). Disney's portrayal focuses on individual choice and Hercules' personal development as a marker of the character's success.",
+            
+            "Rick Riordan's Heroes of Olympus series": "In Rick Riordan's depiction of Hercules, he is depicted as an arrogant and self-centered figure that appears on Percy Jackson's path. In The Mark of Athena book, Hercules assigns the group of demigods the dangerous task of retrieving the horn of Achelous, which can be seen as a parallel to the labors that he himself was assigned. He is very resentful of the labors that he had to go through along with how he is treated by the gods. This provides insights into the flaws of Hercules rather than the great heroic image that is seen in other stories. This humanizes Hercules, showing that he is susceptible to the same moral flaws as humans and despite his status as a god, he still mirrors the shortcomings of mortals.",
+            
+            "Hercules (Dwayne Johnson)": "In The Rock's Hercules, Hercules is depicted as a mortal whose feats are exaggerated by storytelling and rumors that are spread. Similar to some ancient sources, Hercules is extremely guilty after believing that he caused the death of his family. Through all of this however, he taps into his own courage and resilience in order to ultimately achieve greatness in the end. He does not rely on any sort of divine intervention and there is no direct connection to the gods at all. In fact, the heroic qualities of Hercules are emphasized even further because he decides to fight for justice even though he does not have any sort of divine favor. This reflects the modern shift of the idea of being a hero away from fate and divine intervention towards personal virtues like self-determination and free will as seen in the final battle against King Eurystheus and General Cotys.",
+            
+            "Joseph Campbell's Analysis": "In 'The Hero with a Thousand Faces,' Joseph Campbell identifies Hercules as one of the most complete examples of the monomyth or hero's journey. Campbell argues that Hercules' twelve labors represent the classic hero's trials, with each labor serving as both physical challenge and spiritual transformation. His analysis focuses on how Hercules embodies universal patterns of heroism found across cultures. Campbell particularly emphasizes how Hercules' eventual apotheosis (transformation into a god) represents the ultimate reward of the hero's journey - transcendence beyond mortal limitations. This interpretation has been enormously influential on how scholars understand Hercules and on how modern storytellers adapt his myth.",
+            
+            "Nicole Loraux's Studies": "French historian Nicole Loraux's work explores Hercules as a quintessential representation of Greek masculine ideals. In her feminist analysis, she examines how Hercules embodies contradictions in Greek conceptions of masculinity: his superhuman strength coexists with moments of madness and vulnerability. Loraux focuses on episodes where Hercules transgresses gender norms, such as his servitude to Queen Omphale where he was forced to wear women's clothing. She argues these episodes reveal anxieties about masculinity in Greek culture. Her work has been foundational in understanding how Hercules myths reflect and reinforce gender constructions in ancient societies, and how modern adaptations often attempt to resolve these contradictions.",
+            
+            "Emma Stafford's \"Herakles\"": "In her comprehensive study 'Herakles' (2012), Emma Stafford traces the evolution of Hercules from ancient cult figure to modern pop culture icon. Stafford meticulously documents how Hercules has been continuously reinterpreted to suit changing cultural needs across 2,500 years. Her analysis is particularly strong on how Roman adaptation transformed the Greek Herakles into the Latin Hercules, emphasizing different aspects of his character. Stafford argues that the remarkable persistence of Hercules in Western culture stems from his paradoxical nature - simultaneously divine and human, civilized and bestial, hero and villain. Her work reveals how each era selectively emphasizes different aspects of the Hercules myth to reflect its own values and concerns.",
+            
+            "Digital Humanities Study": "A 2018 digital humanities project led by Stanford University used computational methods to analyze Hercules' portrayal across literature, art, and media from antiquity to present day. By tracking the frequency and context of references to Hercules and his various labors, researchers identified several key transition points where his characterization significantly shifted. The study revealed that while ancient sources emphasized Hercules' connection to divine authority, references from the Renaissance onward increasingly focused on his human agency and personal virtue. Perhaps most interestingly, the researchers found that modern popular culture tends to emphasize Hercules' physical strength while minimizing the moral ambiguity present in earlier traditions. This data-driven approach offers quantitative evidence for how the Hercules myth has been selectively adapted to reflect changing cultural values."
+        };
+
+        // Section navigation
+        const navLinks = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('.section-content');
+        
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Update active nav link
+                navLinks.forEach(link => link.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Show the corresponding section
+                const targetSection = this.getAttribute('data-section');
+                sections.forEach(section => {
+                    if (section.id === targetSection) {
+                        section.style.display = 'block';
+                    } else {
+                        section.style.display = 'none';
+                    }
+                });
+            });
+        });
+
         // Timeline animation on scroll
         function isElementInViewport(el) {
             const rect = el.getBoundingClientRect();
@@ -230,11 +274,10 @@
         
         timelineContents.forEach(item => {
             item.addEventListener('click', () => {
-                // Here you would populate the modal with the specific content
                 const title = item.querySelector('.timeline-title').textContent;
                 const date = item.querySelector('.timeline-date').textContent;
                 const body = item.querySelector('.timeline-body p').textContent;
-                const category = item.getAttribute('data-category');
+                const category = item.parentElement.getAttribute('data-category');
                 
                 // Set the category on the modal
                 modal.setAttribute('data-category', category);
@@ -242,6 +285,13 @@
                 document.querySelector('.modal-title').textContent = title;
                 document.querySelector('.modal-date').textContent = date;
                 document.querySelector('.modal-body p').textContent = body;
+                
+                // Set the detailed description from our stored descriptions
+                if (descriptions[title]) {
+                    document.querySelector('.modal-media').innerHTML = descriptions[title];
+                } else {
+                    document.querySelector('.modal-media').innerHTML = "No detailed description available.";
+                }
                 
                 modal.style.display = 'block';
                 setTimeout(() => {
@@ -309,11 +359,6 @@
                 behavior: 'smooth'
             });
         });
-        
-        // // Load more functionality (just a placeholder)
-        // document.getElementById('load-more').addEventListener('click', () => {
-        //     alert('This is where you would load more timeline events in a real implementation.');
-        // });
     </script>
 </body>
 </html>
